@@ -21,3 +21,5 @@ Class = Song
 
 song = Song.create 
 Song.all.include?(song)
+
+@@song = "The Ship Song"
