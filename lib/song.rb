@@ -28,3 +28,6 @@ song = Song.create_by_name("The Middle")
 
 Song.all.include?(song)
 
+RSpec.configure do |config|
+  config.order = :default
+  config.before(:each) do
